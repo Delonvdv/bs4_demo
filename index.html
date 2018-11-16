@@ -22,8 +22,20 @@
         top: -15%;
         transform: translateY(-50%);
         border: 1px grey solid;
-        padding: 8px; 
     }
+    .fit-image{
+        width: 100%;
+        object-fit: cover;
+        /* height: 300px; only if you want fixed height */
+    }
+    .userEmailBanner {
+        background-color: #63edc9;
+        font-size: 18px;
+        color: black;
+        padding: 10px;
+        font-family: "Trebuchet MS", arial, tahoma, sans-serif;
+    }
+    
     </style>
 
     <title>Home</title>
@@ -40,13 +52,23 @@
                                 <div class="col-sm-3">
                                         <img src="./media/blue-s-logo.png" class="w-100" alt="Blue Shield">
                                 </div>
-                                <div class="col-sm-6 float-right">
-                                        Language
+                                <div class="col-md-6">
+                                        <div class="float-right">Language</div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <img src="./media/loginImage.jpg" class="img-responsive fit-image" alt="family">
+                            </div>
+                           
+                                <div class=" userEmailBanner">
+                                    <div class="text-center">We've changed how you login! Just use your <strong>email address</strong> as your username</div>
+                                     
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
+                
             </div>
 
     <!-- Optional JavaScript -->
